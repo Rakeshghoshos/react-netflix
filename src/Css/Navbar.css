@@ -1,0 +1,52 @@
+.navbar{
+    color: white;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    z-index: 999;
+    background-color: black;
+}
+.navbar .container{
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.left img{
+    width : 80px;
+    height : 40px;
+    margin-right: 20px;
+}
+.left span{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.right img{
+    margin-right: 20px;
+    width : 80px;
+    height : 40px;
+    border-radius: 100px;
+    cursor: pointer;
+    object-fit: cover;
+}
+.icon{
+    margin: 0px 10px;
+}
+.profile .options{
+    display: none;
+}
+.profile:hover .options{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: black;
+}
